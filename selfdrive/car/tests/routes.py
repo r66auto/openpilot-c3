@@ -72,6 +72,7 @@ routes = [
   CarTestRoute("5085c761395d1fe6|2023-04-07--18-20-06", GM.CHEVROLET_TRAILBLAZER),
 
   CarTestRoute("0e7a2ba168465df5|2020-10-18--14-14-22", HONDA.ACURA_RDX_3G),
+  CarTestRoute("c6c6b318abec90b8/00000017--88ede6eae6", HONDA.ACURA_MDX_HYBRID),
   CarTestRoute("a74b011b32b51b56|2020-07-26--17-09-36", HONDA.HONDA_CIVIC),
   CarTestRoute("a859a044a447c2b0|2020-03-03--18-42-45", HONDA.HONDA_CRV_EU),
   CarTestRoute("68aac44ad69f838e|2021-05-18--20-40-52", HONDA.HONDA_CRV),
@@ -82,6 +83,7 @@ routes = [
   CarTestRoute("320098ff6c5e4730|2023-04-13--17-47-46", HONDA.HONDA_HRV_3G),
   CarTestRoute("147613502316e718/00000001--dd141a3140", HONDA.HONDA_HRV_3G),  # Brazilian model
   CarTestRoute("917b074700869333|2021-05-24--20-40-20", HONDA.ACURA_ILX),
+  CarTestRoute("dc27c011224d353f/00000023--d15078f2fd", HONDA.ACURA_TLX),
   CarTestRoute("08a3deb07573f157|2020-03-06--16-11-19", HONDA.HONDA_ACCORD),  # 1.5T
   CarTestRoute("1da5847ac2488106|2021-05-24--19-31-50", HONDA.HONDA_ACCORD),  # 2.0T
   CarTestRoute("085ac1d942c35910|2021-03-25--20-11-15", HONDA.HONDA_ACCORD),  # 2021 with new style HUD msgs
@@ -296,7 +298,7 @@ routes = [
 
   # Segments that test specific issues
   # Controls mismatch due to interceptor threshold
-  CarTestRoute("cfb32f0fb91b173b|2022-04-06--14-54-45", HONDA.CIVIC, segment=21),
+  CarTestRoute("cfb32f0fb91b173b|2022-04-06--14-54-45", HONDA.HONDA_CIVIC, segment=21),
   # Controls mismatch due to standstill threshold
   CarTestRoute("bec2dcfde6a64235|2022-04-08--14-21-32", HONDA.HONDA_CRV_HYBRID, segment=22),
 ]
