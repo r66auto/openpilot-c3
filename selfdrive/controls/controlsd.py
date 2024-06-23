@@ -698,7 +698,7 @@ class Controls:
           # TODO use desired vs actual curvature
     #      if self.CP.steerControlType == car.CarParams.SteerControlType.angle:
     #        steering_value = actuators.steeringAngleDeg
-          else:
+    #      else:
     #        steering_value = actuators.steer
 
     #      left_deviation = steering_value > 0 and dpath_points[0] < -0.20
